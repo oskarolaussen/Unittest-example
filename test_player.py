@@ -4,7 +4,7 @@ from player import Player
 class TestPlayer(unittest.TestCase):
 	
 	def setUp(self):
-		self.player_1 = Player('Mikael Granlund', 64, 82, 36, 50)
+		self.player_1 = Player('Mikael Granlund', 82, 36, 50)
 		
 	def test_points_per_game(self):
 		self.assertEqual(self.player_1.points_per_game(), 1.05)
